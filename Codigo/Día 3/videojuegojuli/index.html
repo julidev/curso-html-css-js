@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Ingreso de Usuario</title>
+    <link rel="stylesheet" href="MisEstilos.css">
+</head>
+<body>
+    <p>Ingresa tu nombre</p>
+    <input type="text" id="nombreUsuario" />
+ <button onclick="saludarUsuario()">saludar</button>
+
+<script>
+    function saludarUsuario(){
+        alert("hola "+document.getElementById("nombreUsuario").value)
+    }
+</script>
+</body>
+</html>
